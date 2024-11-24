@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  --background: #171717;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+
+  }
+}
+.custom-div {
+  position: absolute;
+  max-height: 100%;
+  top: 0;
+  z-index: -2;
+  min-height: 100vh;
+  width: 100vw;
+  min-height: 100%;
+  background-color: #000000;
+  background-image: radial-gradient(#ffffff33 1px, #000000 1px);
+  background-size: 20px 20px;
+}
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.text {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.text-description {
+  font-family: 'Helvetica';
+  font-weight: 600;
+  font-style: normal;
+}
+
